@@ -26,10 +26,10 @@ importers:
     devDependencies:
       '@nabla/vite-plugin-eslint':
         specifier: 2.0.4
-        version: 2.0.4(eslint@8.55.0)(vite@5.2.12(@types/node@20.12.13))
+        version: 2.0.4(eslint@8.55.0)(vite@5.2.12(@types/node@22.7.4))
       '@types/node':
-        specifier: 20.12.13
-        version: 20.12.13
+        specifier: 22.7.4
+        version: 22.7.4
       '@types/react':
         specifier: 18.3.3
         version: 18.3.3
@@ -44,7 +44,7 @@ importers:
         version: 6.13.1(eslint@8.55.0)(typescript@5.2.2)
       '@vitejs/plugin-react-swc':
         specifier: 3.7.0
-        version: 3.7.0(vite@5.2.12(@types/node@20.12.13))
+        version: 3.7.0(vite@5.2.12(@types/node@22.7.4))
       autoprefixer:
         specifier: 10.4.14
         version: 10.4.14(postcss@8.4.33)
@@ -86,7 +86,7 @@ importers:
         version: 5.2.2
       vite:
         specifier: 5.2.12
-        version: 5.2.12(@types/node@20.12.13)
+        version: 5.2.12(@types/node@22.7.4)
 
 packages:
 
@@ -486,8 +486,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@20.12.13':
-    resolution: {integrity: sha512-gBGeanV41c1L171rR7wjbMiEpEI/l5XFQdLLfhr/REwpgDy/4U8y89+i8kRiLzDyZdOkXh+cRaTetUnCYutoXA==}
+  '@types/node@22.7.4':
+    resolution: {integrity: sha512-y+NPi1rFzDs1NdQHHToqeiX2TIS79SWEAw9GYhkkx8bD0ChpfqC+n2j5OXOCpzfojBEBt6DnEnnG9MY0zk1XLg==}
 
   '@types/prop-types@15.7.13':
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
@@ -1806,8 +1806,8 @@ packages:
   unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
   unsplash-js@7.0.19:
     resolution: {integrity: sha512-j6qT2floy5Q2g2d939FJpwey1yw/GpQecFiSouyJtsHQPj3oqmqq3K4rI+GF8vU1zwGCT7ZwIGQd2dtCQLjYJw==}
@@ -2035,13 +2035,13 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@nabla/vite-plugin-eslint@2.0.4(eslint@8.55.0)(vite@5.2.12(@types/node@20.12.13))':
+  '@nabla/vite-plugin-eslint@2.0.4(eslint@8.55.0)(vite@5.2.12(@types/node@22.7.4))':
     dependencies:
       '@types/eslint': 9.6.1
       chalk: 4.1.2
       debug: 4.3.7
       eslint: 8.55.0
-      vite: 5.2.12(@types/node@20.12.13)
+      vite: 5.2.12(@types/node@22.7.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -2175,9 +2175,9 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@20.12.13':
+  '@types/node@22.7.4':
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.19.8
 
   '@types/prop-types@15.7.13': {}
 
@@ -2279,10 +2279,10 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-react-swc@3.7.0(vite@5.2.12(@types/node@20.12.13))':
+  '@vitejs/plugin-react-swc@3.7.0(vite@5.2.12(@types/node@22.7.4))':
     dependencies:
       '@swc/core': 1.7.26
-      vite: 5.2.12(@types/node@20.12.13)
+      vite: 5.2.12(@types/node@22.7.4)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -3694,7 +3694,7 @@ snapshots:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
 
-  undici-types@5.26.5: {}
+  undici-types@6.19.8: {}
 
   unsplash-js@7.0.19: {}
 
@@ -3710,13 +3710,13 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@5.2.12(@types/node@20.12.13):
+  vite@5.2.12(@types/node@22.7.4):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.47
       rollup: 4.22.5
     optionalDependencies:
-      '@types/node': 20.12.13
+      '@types/node': 22.7.4
       fsevents: 2.3.3
 
   which-boxed-primitive@1.0.2:
