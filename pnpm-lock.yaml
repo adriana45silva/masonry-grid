@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vercel/speed-insights':
-        specifier: ^1.0.13
-        version: 1.0.13(react@18.3.1)
+        specifier: ^1.0.14
+        version: 1.0.14(react@18.3.1)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -725,12 +725,12 @@ packages:
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
 
-  '@vercel/speed-insights@1.0.13':
-    resolution: {integrity: sha512-3iuOMB/M0WE3Zeuoo2mnlD7Eo7fGH7RBGi92Vq4qO7Kp+BwNbpwFqkjuPQDEeBxoGQLJFRICrsx5/IluHZVCZA==}
+  '@vercel/speed-insights@1.0.14':
+    resolution: {integrity: sha512-env1BkPddz1UaEZwBL4GmfRksMi2LbiYaKuoxMQjfLk83aEh7kkWMukkUhpQVs717NE6nnD+1+KO85GZHOZ4nQ==}
     peerDependencies:
       '@sveltejs/kit': ^1 || ^2
       next: '>= 13'
-      react: ^18 || ^19
+      react: ^18 || ^19 || ^19.0.0-rc
       svelte: '>= 4'
       vue: ^3
       vue-router: ^4
@@ -3142,7 +3142,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vercel/speed-insights@1.0.13(react@18.3.1)':
+  '@vercel/speed-insights@1.0.14(react@18.3.1)':
     optionalDependencies:
       react: 18.3.1
 
