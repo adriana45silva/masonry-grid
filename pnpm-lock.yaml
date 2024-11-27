@@ -58,8 +58,8 @@ importers:
         specifier: 8.16.0
         version: 8.16.0(eslint@8.55.0)(typescript@5.7.2)
       '@vitejs/plugin-react-swc':
-        specifier: 3.7.1
-        version: 3.7.1(vite@5.4.11(@types/node@22.10.0))
+        specifier: 3.7.2
+        version: 3.7.2(vite@5.4.11(@types/node@22.10.0))
       '@vitest/coverage-v8':
         specifier: ^2.1.1
         version: 2.1.1(vitest@2.1.1(@types/node@22.10.0)(jsdom@25.0.1)(msw@2.6.6(@types/node@22.10.0)(typescript@5.7.2)))
@@ -806,10 +806,10 @@ packages:
       vue-router:
         optional: true
 
-  '@vitejs/plugin-react-swc@3.7.1':
-    resolution: {integrity: sha512-vgWOY0i1EROUK0Ctg1hwhtC3SdcDjZcdit4Ups4aPkDcB1jYhmo+RMYWY87cmXMhvtD5uf8lV89j2w16vkdSVg==}
+  '@vitejs/plugin-react-swc@3.7.2':
+    resolution: {integrity: sha512-y0byko2b2tSVVf5Gpng1eEhX1OvPC7x8yns1Fx8jDzlJp4LS6CMkCPfLw47cjyoMrshQDoQw4qcgjsU9VvlCew==}
     peerDependencies:
-      vite: ^4 || ^5
+      vite: ^4 || ^5 || ^6
 
   '@vitest/coverage-v8@2.1.1':
     resolution: {integrity: sha512-md/A7A3c42oTT8JUHSqjP5uKTWJejzUW4jalpvs+rZ27gsURsMU8DEb+8Jf8C6Kj2gwfSHJqobDNBuoqlm0cFw==}
@@ -3305,7 +3305,7 @@ snapshots:
     optionalDependencies:
       react: 18.3.1
 
-  '@vitejs/plugin-react-swc@3.7.1(vite@5.4.11(@types/node@22.10.0))':
+  '@vitejs/plugin-react-swc@3.7.2(vite@5.4.11(@types/node@22.10.0))':
     dependencies:
       '@swc/core': 1.7.26
       vite: 5.4.11(@types/node@22.10.0)
